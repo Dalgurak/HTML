@@ -1,0 +1,42 @@
+
+html {
+    background-image: url(" ../images/power-point-slide.png");
+    background-repeat: no-repeat;
+    font-family: Calibri;
+
+    padding-bottom: 60px;
+}
+h1 {
+
+    color: #F3BE60;
+    font-size: 30px;
+}
+#logo {
+    width: 200px;
+    float: right;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.tag {
+    color: #F8D264;
+    font-size: 30px;
+    font-weight: bold;
+}
+li {
+    color: #F3BE60;
+    font-size: 25px;
+    list-style-type: square;
+}
+.li {
+    color: #ffffff;
+}
+.example {
+    opacity: 1;
+    background-color:#141414 ;
+    width: 50%;
+    color:#F5F5D9;
+    border: 2px solid #5F574E;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+}

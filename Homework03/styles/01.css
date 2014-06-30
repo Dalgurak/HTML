@@ -1,0 +1,87 @@
+body{
+    font-family: Calibri;
+    font-size: 16px;
+}
+h2{
+    color: #234465;
+}
+h4{
+    padding: 0 0 0 6px;
+}
+a{
+    color: #ffffff;
+    float: right;
+}
+.form{
+    margin: 4px;
+    padding: 10px 10px 3px 2px;
+    width: 220px;
+}
+#wrap{
+    width: 500px;
+    height: 360px;
+    background-color: #EEEEEE;
+}
+#register{
+    margin: 0;
+
+    width: 250px;
+    height: 270px;
+    float: left;
+}
+#login{
+    margin: 0;
+
+    width: 250px;
+    height: 270px;
+    float: right;
+    background-color: #234465
+}
+
+.reg{
+    color: #234465;
+    float: right;
+    background: #ffffff;
+    display: inline-block;
+    padding: 5px 25px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #234465;
+
+}
+
+.log{
+    color: #ffffff;
+    float: right;
+    background: #234465;
+    display: inline-block;
+    padding: 5px 25px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #F9B310;
+}
+.r{
+    color: #234465;
+
+}
+.l{
+    color: #ffffff;
+
+}
+.rem{
+    color: #ffffff;
+    float: left;
+
+}

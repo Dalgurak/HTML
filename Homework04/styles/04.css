@@ -1,0 +1,225 @@
+#wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+body{
+    font-family: "Droid Sans", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    color: #225E9B;
+}
+li{
+    list-style: none;
+}
+
+h3{
+    font-size: 16px;
+    color: #777777;
+}
+
+
+h1{
+    font-weight: 400;
+}
+
+#head{
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    text-align: start;
+}
+
+
+
+.navigation{
+
+    float: left;
+
+}
+
+.border{
+    border-bottom: 1px solid #777777;
+    padding-bottom: 0px;
+}
+
+.navigation li{
+    display: inline-block;
+    margin-right: 60px;
+
+}
+.navigation a{
+    color: #777777;
+    font-size: 14px;
+}
+
+fieldset{
+    width: 200px;
+    border: 0;
+    float: right;
+}
+
+aside{
+    float: left;
+    clear: left;
+    display: block;
+}
+
+.left-side{
+
+    width: 200px;
+    float: left;
+    display: flex;
+    margin-top: 65px;
+    border-top: 1px solid #777777;
+}
+
+
+main{
+    margin: 0 auto;
+    padding-top: 40px;
+
+    float: none;
+}
+
+.left-side-menu{
+    font-size: 14px;
+}
+
+.middle{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 50px;
+
+}
+
+.right{
+    margin-top: -260px;
+    float: right;
+    display: block;
+    clear: right;
+
+}
+
+aside.right{
+
+    margin-right: 90px;
+    float: right;
+    display: block;
+    clear: right;
+
+}
+
+.previous{
+    margin-top: 90px;
+}
+
+.box{
+    width: 100%;
+    background-color: #EEEEEE;
+    margin: 0;
+    height: 50px;
+}
+
+.box-img{
+    margin: 0 auto;
+    width: 80%;
+    background-image: url("../images/twitter-balloon.png");
+    background-repeat: no-repeat;
+
+
+}
+
+
+.bot-text{
+
+
+    margin-left: 30px;
+    font-style: italic;
+    padding-top: 17px;
+    font-size: 14px;
+    color: #777777;
+
+}
+
+.footer-wrap{
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    height: 250px;
+    margin-bottom: 0;
+}
+.footer-wrap a{
+    color: #ffffff;
+}
+
+.footer-menu-wrap{
+    width: 1000px;
+    margin: 0 auto;
+
+
+}
+.foot-menu{
+
+    padding: 3px;
+    width: 188px;
+    margin-left: 2px;
+    display: inline-block;
+    float: left;
+
+
+
+}
+footer h3{
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+footer h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer p{
+    font-size: 12px;
+    color: #777777;
+}
+
+footer a{
+    font-size: 14px;
+
+}
+
+footer a.marg{
+    margin-left: -40px;
+}
+
+footer a.margtc{
+    margin-left: -40px;
+    font-weight: 700;
+}
+
+a.username{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #777777;
+}
+
+.sc{
+    font-size: 11px;
+
+}
+
+.username{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.hhh{
+    border-bottom: 1px solid #777777;
+}

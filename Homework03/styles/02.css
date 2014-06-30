@@ -1,0 +1,28 @@
+body{
+    font-family: Calibri;
+    font-size: 16px;
+}
+em{
+    font-size: 12px;
+}
+#wrap{
+    background-color: #FFC6CE ;
+}
+/** 180*23 */
+
+.fix{
+    width: 180px;
+    height: 23px;
+}
+.age{
+    width: 65px;
+}
+.srch{
+    margin: 0;
+    width: 180px;
+    float: right;
+
+}
+.right{
+    float: right;
+}

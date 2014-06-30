@@ -1,0 +1,19 @@
+body{
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+.black{
+
+    font-size: 40px;
+}
+.blue{
+
+    font-size: 40px;
+    color: #25769B;
+}
+
+.logo{
+    float: left;
+    margin: 0;
+    padding-top: 35px;
+}

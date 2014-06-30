@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/02.css"/>
+    <title>Flight Order</title>
+</head>
+<body>
+<table id="wrap">
+    <tr>
+        <th colspan="2">FLIGHT ORDER</th>
+    </tr>
+    <tr>
+        <td><em>From</em><br></td>
+        <td><em>to</em></td>
+    </tr>
+    <tr>
+        <td>
+
+            <select  class="fix" name="from">
+            <option value="Value 1" selected="selected">enter a city</option>
+            <option value="Value 5">Sofia</option>
+            <option value="Value 2">Bourgas</option>
+            <option value="Value 3">Varna</option>
+            <option value="Value 3">Plovdiv</option>
+            </select>
+        </td>
+        <td>
+            <select  class="fix" name="to">
+                <option value="Value 1" selected="selected">enter a city</option>
+                <option value="Value 5">London</option>
+                <option value="Value 2">Paris</option>
+                <option value="Value 3">Las Vegas</option>
+                <option value="Value 3">Miami</option>
+            </select>
+
+
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><em><input type="checkbox" name="prefer" value="yes">Prefer direct</em></td>
+    </tr>
+    <tr>
+        <td><em>Departure Date</em><br></td>
+        <td><em>Time Interval</em></td>
+    </tr>
+    <tr>
+        <td>
+
+            <input  class="fix" name="departureDate" type="date" value="2014-06-14" />
+        </td>
+        <td>
+            <table>
+            <tr>
+                <td>
+
+                    <input  name="timeIntervalStartFrom" type="time" value="00:20" />
+                </td>
+                <td>
+                    <input name="timeIntervalEndFrom" type="time" value="05:00" />
+                </td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><em>Return Date</em><br></td>
+        <td><em>Time Interval</em></td>
+    </tr>
+    <tr>
+        <td>
+
+            <input  class="fix" name="departureDate" type="date" value="2014-06-13" />
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>
+
+                        <input name="timeIntervalStartFrom" type="time" value="16:00" />
+                    </td>
+                    <td>
+                        <input name="timeIntervalEndFrom" type="time" value="22:00" />
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <td class="age"><em> 12+</em></td>
+                    <td class="age"><em> 2-12</em></td>
+                    <td class="age"><em> 0-2</em></td>
+                </tr>
+            </table>
+        </td>
+        <td><em>Choose class</em></td>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <td><input type="number" min="0" max="5" /></td>
+                    <td><input type="number" min="0" max="5" /></td>
+                    <td><input type="number" min="0" max="5" /></td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <select class="fix" name="from">
+            <option value="Value 1" selected="selected">Economy</option>
+            <option value="Value 2">Buisness</option>
+            <option value="Value 3">Normal</option>
+
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input class="srch" type="submit" value="Search" />
+        </td>
+    </tr>
+</table>
+</body>
+</html>
