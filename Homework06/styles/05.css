@@ -1,0 +1,24 @@
+body{
+    font-family: Sagoe UI;
+}
+.wrap{
+    width: 450px;
+    height: 400px;
+    background: #66a4d6; /* Old browsers */
+    background: -moz-linear-gradient(top,  #66a4d6 2%, #86abc9 42%, #accce5 82%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#66a4d6), color-stop(42%,#86abc9), color-stop(82%,#accce5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #66a4d6 2%,#86abc9 42%,#accce5 82%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #66a4d6 2%,#86abc9 42%,#accce5 82%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #66a4d6 2%,#86abc9 42%,#accce5 82%); /* IE10+ */
+    background: linear-gradient(to bottom,  #66a4d6 2%,#86abc9 42%,#accce5 82%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66a4d6', endColorstr='#accce5',GradientType=0 ); /* IE6-9 */
+
+}
+
+.label{
+    background: url("../resources/calc.png") no-repeat;
+    margin: 4px 4px;
+}
+body>div>div>span{
+    margin-left: 16px;
+}
