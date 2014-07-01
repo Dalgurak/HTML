@@ -1,0 +1,39 @@
+.wrap{
+    width: 360px;
+    height: 600px;
+    background: url("../resources/formBackground.jpg");
+    margin: 0 auto;
+    font-family: Calibri ;
+    color: #fff;
+}
+
+.in{
+    width: 90%;
+    background: rgba(159, 159, 159, 0.33);
+    padding: 5px 5px;
+    border: 1px solid #c9c9c9;
+    margin: 2px auto;
+    border-radius: 5px;
+
+}
+
+.input{
+    width: 170px;
+    float: right;
+}
+
+
+.card-type{
+
+    width: 90%;
+    background: rgba(159, 159, 159, 0.33);
+
+    border: 1px solid #c9c9c9;
+    margin: 4px auto;
+    border-radius: 5px;
+}
+
+
+
+
+
