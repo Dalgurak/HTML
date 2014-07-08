@@ -1,7 +1,6 @@
 body, header, aside, footer, article, section{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -21,6 +20,7 @@ h1{
     color: #fff;
     float: right;
     margin-top: 200px;
+
 }
 h2{
     color: #8CC81F;
@@ -96,7 +96,7 @@ nav a:hover{
 section.welcome{
     border: 1px solid #dadada;
     border-radius: 10px;
-    width: 610px;
+    width: 600px;
     margin-left: 40px;
     margin-top: 20px;
     float: left;
@@ -105,7 +105,7 @@ section.welcome{
 section.main{
     border: 1px solid #dadada;
     border-radius: 10px;
-    width: 610px;
+    width: 600px;
     margin-left: 40px;
     margin-top: 20px;
     float: left;
@@ -207,4 +207,117 @@ section.up-sec{
     text-align: center;
     padding-top: 30px;
     font-size: 14px;
+}
+
+@media screen and (max-width: 900px){
+    .wrap{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    section.welcome{
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    section.main{
+        width: 100%;
+    }
+    .left{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .right{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    aside section{
+        width: 100%;
+
+
+    }
+
+    .up-sec{
+        margin-left:20px;
+    }
+
+    h1{
+        color: #fff;
+        max-width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .wrap{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    section.welcome{
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    section.main{
+        width: 100%;
+    }
+    .left{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .right{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    aside section{
+        width: 100%;
+
+
+    }
+    nav{
+        height: auto;
+        text-align: center;
+    }
+    ul{
+        display: block;
+        margin: 0 auto;
+
+    }
+    ul li{
+        display: block;
+        margin-top: 10px;
+
+    }
+    ul li a{
+       border: 0;
+        padding: 10px 80px 8px 80px
+    }
+
+    ul li a:hover{
+        padding: 10px 80px 8px 80px
+    }
+    section{
+        margin-left: 40px;
+        margin-right: 0;
+    }
+    p{
+        display: block;
+        max-width: 100%;
+        word-wrap: break-word;
+        height: auto;
+    }
+    .cont{
+        min-width: 250px;
+
+    }
+/*i cantnot fix the last one step with resolution < ~450px*/
 }
